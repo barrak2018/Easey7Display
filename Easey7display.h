@@ -25,6 +25,6 @@ private:
         0b0010000      //9
     };
     //__________________________________
-    void twist(byte toChange);
+    
 };
 #endif
