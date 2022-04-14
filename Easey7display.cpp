@@ -7,21 +7,21 @@
 Display::Display(int a,int b,int c,int d,int e,int f,int g,bool anOrCat)
 {
     //_______________________
-    _a=a;
-    _b=b;
-    _c=c;
-    _d=d;
-    _e=e;
-    _f=f;
-    _g=g;
+    //_a=a;
+    //_b=b;
+    //_c=c;
+    //_d=d;
+    //_e=e;
+    //_f=f;
+    //_g=g;
     _anOrCat=anOrCat;
-    pinRegister[0]=_a;
-    pinRegister[1]=_b;
-    pinRegister[2]=_c;
-    pinRegister[3]=_d;
-    pinRegister[4]=_e;
-    pinRegister[5]=_f;
-    pinRegister[6]=_g;
+    pinRegister[0]=a;
+    pinRegister[1]=b;
+    pinRegister[2]=c;
+    pinRegister[3]=d;
+    pinRegister[4]=e;
+    pinRegister[5]=f;
+    pinRegister[6]=g;
     //_______________________
     if (_anOrCat==false)
     {
