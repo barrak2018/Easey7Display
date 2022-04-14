@@ -2,18 +2,11 @@
 #include "Easey7display.h"
 
 // false: to commond  catode
-// True: to cmmod anode
+// True: to commond anode
 
 Display::Display(int a,int b,int c,int d,int e,int f,int g,bool anOrCat)
 {
     //_______________________
-    //_a=a;
-    //_b=b;
-    //_c=c;
-    //_d=d;
-    //_e=e;
-    //_f=f;
-    //_g=g;
     _anOrCat=anOrCat;
     pinRegister[0]=a;
     pinRegister[1]=b;
@@ -52,8 +45,6 @@ void Display::print(int digito)
     {
         int bit = bitRead(numero, i);
         digitalWrite(pinRegister[i], bit);
-        //Serial.println(numDictionary[i]);
-        //delay(10);
     }
 };
 

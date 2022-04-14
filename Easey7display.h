@@ -10,13 +10,6 @@ public:
 private:
     //__________________________________
     int pinRegister[7]{};
-    //int _a;
-    //int _b;
-    //int _c;
-    //int _d;
-    //int _e;
-    //int _f;
-    //int _g;
     bool _anOrCat;
     //__________________________________
     byte numDictionary[10]{
